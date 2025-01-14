@@ -1,0 +1,66 @@
+########################
+# NOTES
+########################
+# Top Entry will supercede anything below
+# Only One Entry can apply to the item, can't be mixed
+
+########################
+# RARITY
+########################
+Show
+	Rarity Magic Rare Unique
+	SetFontSize 20
+
+########################
+# FLASKS
+########################
+Show
+	Class == "Life Flasks" "Mana Flasks"
+	ItemLevel >= 30
+	SetFontSize 20
+
+########################
+# CURRENCY
+########################
+Show
+	BaseType == "Gold"
+	SetBackgroundColor 212 175 55 255
+	SetTextColor 0 0 0 255
+	
+
+Show
+	Class == "Stackable Currency"
+	SetFontSize 24
+
+########################
+# ARMOR
+########################
+
+########################
+# HIDE NON MONK ITEMS
+########################
+
+########################
+# CLASS
+########################
+Hide
+	Class == "Foci" "Staves" "Shields" "Bows" "Two Hand Maces" "Crossbows"
+
+########################
+# HELMET
+########################
+Hide
+	BaseType == "Heavy Crown" "Hunter Hood"
+
+
+########################
+# GLOVES
+########################
+Hide
+	BaseType == "Moulded Mitts"
+
+########################
+# BOOTS
+########################
+Hide
+	BaseType == "Stacked Sabatons" "Padded Leggings" "Silk Slippers" "Trimmed Greaves"
